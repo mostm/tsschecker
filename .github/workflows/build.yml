@@ -1,5 +1,8 @@
 name: build
-on: [push]
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
 
 env:
   LIBPLIST_VERSION: 2.2.0
